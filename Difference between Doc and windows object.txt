@@ -1,0 +1,35 @@
+
+1.Document: Represents the HTML structure and content of the web page loaded within a browser window.
+Window: Represents the browser window itself, including the document, navigation bar, scrollbars, and other browser-specific elements.
+Scope:
+
+2.Document: Nested within the Window object, providing access to specific page elements.
+Window: Occupies the top level of the JavaScript object hierarchy, accessible with either window or this (within global scope).
+Purpose:
+
+3.Document: Enables you to manipulate the page's content, structure, and behavior via the Document Object Model (DOM).
+Window: Offers broader control over the browser window, including navigation, history, dimensions, and interactions with other windows.
+Properties:
+
+4.Document: Properties represent aspects of the page itself, such as URL, title, documentElement, forms, body, and various collections of elements.
+Window: Properties provide information and control over the window itself, including history, navigator, location, innerWidth, innerHeight, screen, and more.
+Methods:
+
+5.Document: Methods manipulate the page's content and behavior, such as getElementById, createElement, createTextNode, addEventListener, removeEventListener, and more.
+Window: Methods control the window, including alert, confirm, open, close, scrollTo, scrollBy, and methods for manipulating history, cookies, and navigation.
+Events:
+
+6.Document: Events are triggered by user interactions or page-related events within the document, such as click, change, submit, load, and others.
+Window: Events encompass actions related to the window itself, such as resize, focus, blur, load, error, and more.
+Global Variables:
+
+7.Document: Variables declared within the document scope cannot be accessed directly from the global scope; you need to prefix them with document. (e.g., document.myGlobalVar).
+Window: Variables declared within the window scope are also global variables, accessible from anywhere in your JavaScript code.
+Inheritance:
+
+8.Document: Does not inherit directly from any other object in JavaScript.
+Window: Inherits from the EventTarget interface, enabling it to participate in the event model.
+Context:
+
+9.Document: Often used within event handlers or functions that specifically interact with the page's content.
+Window: Can be used globally, in event handlers, or anywhere in your JavaScript code to affect the window's behavior.
